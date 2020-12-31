@@ -76,26 +76,26 @@ public class Main {
 		for (int i = 0; i < array.length; i++) {
 			array[i] = input.nextInt();
 		}
-//
-//		System.out.print("Input deleting location");
-//		int index = input.nextInt();
-//		System.out.print("Value of array after delete a element");
-//		showArray(delete(array, index));
 
-		System.out.print("Input inserting location!");
-		int location = input.nextInt();
-		System.out.print("Input a value!");
-		int value = input.nextInt();
-		System.out.print("Value of array after insert a element");
-		showArray(insert(array, location, value));
-//		
-//		System.out.print("Value of array after descending order");
-//		int[] sortDes = descendingOrder(array);
-//		showArray(sortDes);
-//
-//		System.out.print("Value of array after ascending order");
-//		int[] sortAsc = ascendingOrder(array);
-//		showArray(sortAsc);
+		System.out.print("Input deleting location");
+		int index = input.nextInt();
+		System.out.print("Value of array after delete a element");
+		showArray(delete(array, index));
+
+// 		System.out.print("Input inserting location!");
+// 		int location = input.nextInt();
+// 		System.out.print("Input a value!");
+// 		int value = input.nextInt();
+// 		System.out.print("Value of array after insert a element");
+// 		showArray(insert(array, location, value));
+		
+		System.out.print("Value of array after descending order");
+		int[] sortDes = descendingOrder(array);
+		showArray(sortDes);
+
+		System.out.print("Value of array after ascending order");
+		int[] sortAsc = ascendingOrder(array);
+		showArray(sortAsc);
 
 
 	}
